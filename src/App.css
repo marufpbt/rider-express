@@ -1,0 +1,53 @@
+.bg {
+  width: 100%;
+  background-size: contain;
+  height: 100vh;
+  background-repeat: repeat-x;
+  background-position: center center;
+}
+
+.vehicle-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+.card-img-top {
+  width: 70% !important;
+  margin: 15px auto !important;
+}
+
+.navbar {
+  height: 200px;
+}
+
+.navbar-brand {
+  font-size: 30px!important;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.navbar-nav a{
+  margin: 0 30px;
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar-nav a:hover{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg {
+    background-size: cover;
+    height: fit-content;
+  }
+
+  .vehicle-container {
+    grid-template-columns: 1fr;
+  }
+}

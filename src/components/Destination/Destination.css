@@ -1,0 +1,7 @@
+.destination-container{
+	display: flex;
+}
+.search-field{
+	width: 400px;
+	margin: 50px;
+}
